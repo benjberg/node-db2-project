@@ -12,6 +12,9 @@ module.exports = {
       // where to store the migration files
       directory: "./data/migrations",
     },
+    seeds: {
+      directory: './data/seeds'
+    }
   }
 
   
